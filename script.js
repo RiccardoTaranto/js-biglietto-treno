@@ -23,3 +23,7 @@ if (age < 18) {
 if (age > 65) {
     prezzoTotale = prezzoTotale - (prezzoTotale * 0.4);
 }
+
+let prezzoFinale = prezzoTotale.toFixed(2);
+
+console.log("Il prezzo del biglietto è: €" + prezzoFinale);
